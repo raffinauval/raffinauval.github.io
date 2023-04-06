@@ -194,7 +194,7 @@
    /* Rundown */
    
    .rundown {
-       height: 1100px;
+       height: 1200px;
    }
    
    .title-rundown {
@@ -268,14 +268,14 @@
    
    .timeline__title {
        margin: 0;
-       font-size: 32px;
+       font-size: 24px;
        font-weight: 600;
        font-weight: bold;
    }
    
    .timeline__paragraph {
        font-weight: 700;
-       font-size: 32px;
+       font-size: 24px;
        font-style: italic;
    }
    /* End Rundown */
@@ -392,6 +392,12 @@
        color: white;
    }
    
+   .wa-icon {
+       height: 90px;
+       font-size: 37px;
+       color: white;
+   }
+   
    .icon-footer-envelope {
        font-size: 32px;
        color: white;
@@ -430,10 +436,21 @@
        .markerTime {
            font-size: 20px;
        }
-       .about .logo-about {
+       .logo-about {
            display: content !important;
        }
        .subtitle-down {
            font-size: 20px;
+       }
+       .timeline__title {
+           margin: 0;
+           font-size: 32px;
+           font-weight: 600;
+           font-weight: bold;
+       }
+       .timeline__paragraph {
+           font-weight: 700;
+           font-size: 32px;
+           font-style: italic;
        }
    }
