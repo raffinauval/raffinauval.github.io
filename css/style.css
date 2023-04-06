@@ -1,7 +1,6 @@
-   * {
-       box-sizing: border-box;
+    body::-webkit-scrollbar {
+       display: none;
    }
-   
    body {
        background-image: url('../image/assets/background.png');
        overflow-x: hidden;
